@@ -1,0 +1,15 @@
+using System;
+
+namespace ConsoleAppGreetName
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("ENTER YOUR NAME");
+            String name = Console.ReadLine();
+            Console.Write("hello " + name);
+            Console.ReadKey();
+        }
+    }
+}
